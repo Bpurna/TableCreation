@@ -72,76 +72,7 @@ class Job extends React.Component {
                                 )
                             })}
                         </TableBody>
-                        <TableBody>
-                            <TableRow onClick={this.itemClick}>
-                                <TableCell component="th" scope="row">
-                                    Es6
-                            </TableCell>
-                                <TableCell align="right">
-                                    <img
-                                        alt="..." style={{ maxHeight: '36px' }}
-                                        src={require("../components/assets/Esalalogo.png")}
-                                    />
-                                </TableCell>
-                                <TableCell align="right">New Feature in reactjs and used in reactjs</TableCell>
-                            </TableRow>
-                        </TableBody>
-                        <TableBody>
-                            <TableRow onClick={this.itemClick}>
-                                <TableCell component="th" scope="row">
-                                    Java Script
-                                </TableCell>
-                                <TableCell align="right">
-                                    <img
-                                        alt="..." style={{ maxHeight: '36px' }}
-                                        src={require("../components/assets/Esalalogo.png")}
-                                    />
-                                </TableCell>
-                                <TableCell align="right">Update Technology Easy to learn and easy to use</TableCell>
-                            </TableRow>
-                        </TableBody>
-                        <TableBody>
-                            <TableRow onClick={this.itemClick}>
-                                <TableCell component="th" scope="row">
-                                    Angular
-                                </TableCell>
-                                <TableCell align="right">
-                                    <img
-                                        alt="..." style={{ maxHeight: '36px' }}
-                                        src={require("../components/assets/Esalalogo.png")}
-                                    />
-                                </TableCell>
-                                <TableCell align="right">Update Technology Easy to learn and easy to use</TableCell>
-                            </TableRow>
-                        </TableBody>
-                        <TableBody>
-                            <TableRow onClick={this.itemClick}>
-                                <TableCell component="th" scope="row">
-                                    Node Js
-                                </TableCell>
-                                <TableCell align="right">
-                                    <img
-                                        alt="..." style={{ maxHeight: '36px' }}
-                                        src={require("../components/assets/Esalalogo.png")}
-                                    />
-                                </TableCell>
-                                <TableCell align="right">Update Technology Easy to learn and easy to use</TableCell>
-                            </TableRow>
-                        </TableBody>
-                        <TableBody>
-                            <TableRow onClick={this.itemClick}>
-                                <TableCell component="th" scope="row">
-                                    Java
-                                </TableCell>
-                                <TableCell align="right">
-                                    <img
-                                        alt="..." style={{ maxHeight: '36px' }}
-                                        src={require("../components/assets/Esalalogo.png")}
-                                    />
-                                </TableCell>
-                                <TableCell align="right">Update Technology Easy to learn and easy to use</TableCell>
-                            </TableRow>
-                        </TableBody>
+                        
                     </Table>
                 </TableContainer>
                 <div >
